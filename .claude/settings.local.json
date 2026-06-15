@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(unzip -o \"АвтоСнаб - Горцуев Данил \\(1\\).zip\" -d ./extracted)",
+      "Bash(unzip -l \"АвтоСнаб - Горцуев Данил \\(1\\).zip\")",
+      "Bash(unzip -l \"АвтоСнаб - Горцуев Данил.zip\")",
+      "Bash(unzip -o \"АвтоСнаб - Горцуев Данил.zip\" -d ./extracted2)",
+      "Bash(magick \"extracted2/История заказов - Роль Ресторан/Закупщик.png\" -resize 1800x1800 ./history_restaurant_small.png)",
+      "Bash(python3 -c ' *)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --yes)"
+    ]
+  }
+}
